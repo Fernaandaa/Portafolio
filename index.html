@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+			<link rel="stylesheet" href="./Css/style.css">
+	<title>Portafolio | Fernánda Sánchez</title>
+</head>
+
+<body>
+<header class="header">
+  <a class="menu" href="javascript:;"><img src="https://i.ibb.co/7NJ15tn/menu.png" alt=""></a>
+  <div class="container">
+    <nav class="nav" id="navbar">
+      <ul class="nav__links">
+        <li><a href="/" class="nav__link">Inicio</a></li>
+        <li><a href="#about" class="nav__link">Sobre mí</a></li>
+        <li><a href="#projects" class="nav__link">Proyectos</a></li>
+        <li><a href="#contact" class="nav__link">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="welcome-section">
+  <div class="container container_padding">
+    <h2 class="hero__subheading">¡Hey! Soy Fernánda Cruz.</h2>
+    <h1 class="hero__heading">
+      <em class="important">Diseño</em> y
+      <em class="important">construyo</em> sitios web que cautivan a la gente.
+    </h1>
+    <div class="hero__social">
+      <div class="hero__fcc">
+        <a href="https://www.freecodecamp.org/fcca8f730bd-3b08-4ac4-8b31-0ba0d9829f70" target="_blank" class="hero__icon"><i class="fab fa-free-code-camp"></i></a>
+      </div>
+      <div class="hero__github">
+        <a href="https://github.com/Fernaandaa" target="_blank" id="profile-link" class="hero__icon"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container container_padding">
+    <h2 class="about__heading section-heading">Sobre mí</h2>
+    <p class="about__content">
+			Soy una estudiante de 20 años. Actualmente estudio con la Fundación Educamás, estudio programación.
+    </p>
+    <div class="about__cards">
+      <div class="about__card">
+        <img src="./Img/cert-1014-21576187.jpg" alt="" class="about__card-img" />
+        <p class="about__card-text">
+        Html5 Básico.
+        </p>
+      </div>
+      <div class="about__card">
+        <img src="./Img/cert-21576187-1024 (1).png" alt="" class="about__card-img" />
+        <p class="about__card-text">
+       JavaScript Básico.
+        </p>
+      </div>
+      <div class="about__card">
+        <img src="./Img/cert-1059-21576187.jpg" alt="" class="about__card-img" />
+        <p class="about__card-text">
+        PHP Básico.
+        </p>
+      </div>
+
+      <div class="about__card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1952&q=80" alt="" class="about__card-img" />
+        <p class="about__card-text">
+        Css Básico.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <div class="container container_padding">
+    <h2 class="projects__heading section-heading">Proyectos</h2>
+    <div class="projects-grid">
+      <a href="javascript:;" class="project project-tile">
+        <div class="project__thumbnail">
+          <img src="./Img/El Increíble Castillo VagabundoWebTributo.jpg" alt="" />
+        </div>
+        <div class="project__description">
+          <div class="project__title">Web Tributo</div>
+          <p class="project__text">
+						Es un página tributo, a la película "El increíble castillo
+						vagabundo" que se basa en la novela homónima de la
+						escritora británica Diana Wynne Jones.
+          </p>
+        </div>
+      </a>
+      <a href="javascript:;" class="project">
+        <div class="project__thumbnail project__thumbnail_swap">
+          <img src="https://images.unsplash.com/photo-1547082299-de196ea013d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80" alt="" />
+        </div>
+        <div class="project__description">
+          <div class="project__title">50 Retos</div>
+          <p class="project__text">
+          Son 50 retos, los cuales están resueltos.
+          </p>
+        </div>
+      </a>
+      <a href="javascript:;" class="project">
+        <div class="project__thumbnail">
+          <img src="./Img/Portafolio.jpeg" alt="" />
+        </div>
+        <div class="project__description">
+          <div class="project__title">Portafolio</div>
+          <p class="project__text">
+           Portafolio personal.
+          </p>
+        </div>
+    </div>
+      </a>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container container_padding">
+
+    <h2 class="contact__heading section-heading">Contacto</h2>
+
+    <form class="contact-form" action="">
+      <div class="contact-form__group contact-form__group_name">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div class="contact-form__group contact-form__group_email">
+        <label for="email">Correo Electrónico</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div class="contact-form__group contact-form__group_message">
+        <label for="message">Mensaje</label>
+        <textarea name="message" id="message"></textarea>
+      </div>
+
+      <div class="contact-form__group">
+        <button type="submit" class="contact-form__submit">Enviar</button>
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container container_padding">
+
+    <div class="footer-section">
+      <h2 class="footer-section__heading">Contáctame</h2>
+      <div class="footer-section__content">
+        <div class="footer__social-item">
+          <a href="https://www.freecodecamp.org/fcca8f730bd-3b08-4ac4-8b31-0ba0d9829f70" target="_blank" class=""><i class="fab fa-free-code-camp"></i>
+            freeCodeCamp</a>
+        </div>
+        <div class="footer__social-item">
+          <a href="https://github.com/Fernaandaa" target="_blank" id="profile-link" class=""><i class="fab fa-github"></i>
+            GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <h2 class="footer-section__heading">Copyright</h2>
+      <div class="footer-section__content">
+        <p>&copy; Copyright 2021 Fernánda Cruz.</p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<script src="./Js/script.js"></script>
+</body>
+</html>
